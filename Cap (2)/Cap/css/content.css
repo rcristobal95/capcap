@@ -1,0 +1,78 @@
+﻿/*CSS for dropdown botton in CP*/
+.dropbtn {
+    background-color: #A100FF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px/50px;
+}
+
+.dropdown {
+    margin-left:20px;
+    position: static;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #9866C7;
+}
+/*CSS for search button*/
+.searchbutton {
+    margin-top: 70px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-size: 30px;
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+/*CSS for CP Table*/
+#main_table {
+    position: static;
+    margin-left: 20px;
+    margin-right:20px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#main_table th {
+    border: 1px solid black;
+    padding: 10px 5px;
+    background-color: #999da0;
+    color: white;
+}
+
+#main_table td {
+    border: 1px solid;
+    padding: 10px 5px;
+}

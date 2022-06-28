@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.root{
+  --blue: #4e73df;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #e74a3b;
+  --orange: #fd7e14;
+  --yellow: #f6c23e;
+  --green: #1cc88a;
+  --teal: #20c9a6;
+  --cyan: #36b9cc;
+  --white: #fff;
+  --gray: #858796;
+  --gray-dark: #5a5c69;
+  --primary: #4e73df;
+  --secondary: #858796;
+  --success: #1cc88a;
+  --info: #36b9cc;
+  --warning: #f6c23e;
+  --danger: #e74a3b;
+  --light: #f8f9fc;
+  --dark: #5a5c69;
+}
+
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    font-size: 13px;
+}
+/*CSS for bottom navigation*/
+.footnote {
+    position: static;
+    top: 70px;
+    left: 20px;
+    right: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.acc_logo {
+    width: 100px;
+    height: 30px;
+}
+
+nav.navigation_bottom ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav.navigation_bottom ul li {
+    display: inline;
+}
+
+nav.navigation_bottom ul li a {
+    color: black;
+    padding: 0px 5px;
+    text-decoration: none;
+}
